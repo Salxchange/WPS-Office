@@ -8,15 +8,15 @@ import os
 
 class bot(object):
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("API_ID", "23941369")
+    API_HASH = os.environ.get("API_HASH", "bbd37235e41a95d03bc144ea6bc7b2cd")
 
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = os.environ.get("API_TOKEN", "7170887063:AAH4IhQGpbRRIFxqIJpqpuc3TtZgUguO1ic")
 
 class dm(object):
     # add admins Id list by space separated (Optional)
-    ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
+    ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "1966867320").split()))
     ADMINS.append(531733867)
 
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
@@ -42,7 +42,7 @@ class images(object):
     THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"  # to inc. meadia edit speed
 
     # WELCOME IMAGE
-    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC = "https://telegra.ph/file/37b8b10e5329a53759775.jpg"
 
     # BANNED IMAGE
     BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
@@ -81,7 +81,7 @@ class settings(object):
         True if os.environ.get("MULTI_LANG_SUP", "False") == "True" else False
     )
 
-    REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT = "https://t.me/Team_Roku"
 
     FEEDBACK = "https://telegram.dog/ilovepdf_bot"
 
@@ -89,7 +89,7 @@ class settings(object):
 
     OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
 
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://telegram.dog/Rokubotz"
 
     REFER_BETA = False if os.environ.get("REFER_BETA", "False") == "False" else True
 
