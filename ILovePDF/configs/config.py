@@ -42,13 +42,13 @@ class images(object):
     THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"  # to inc. meadia edit speed
 
     # WELCOME IMAGE
-    WELCOME_PIC = "https://telegra.ph/file/37b8b10e5329a53759775.jpg"
+    WELCOME_PIC = "https://telegra.ph/file/c02c7f7d9980fe6493565.jpg"
 
     # BANNED IMAGE
-    BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BANNED_PIC = "https://telegra.ph/file/3082b47fed2542f03fd4a.jpg"
 
     # BIG FILE
-    BIG_FILE = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BIG_FILE = "https://telegra.ph/file/3082b47fed2542f03fd4a.jpg"
 
 class settings(object):
 
